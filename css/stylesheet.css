@@ -1,0 +1,131 @@
+body {
+    background: #C0E0FF;
+}
+
+#wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-image: url(../img/header-bg.gif);
+    /*background-repeat: repeat-x;*/
+    background-repeat: repeat;
+    /* padding-bottom: 10%; */
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 148px;;
+    position: relative;
+}
+
+#h1-header {
+    margin-left: 2%;
+    float: left;
+    color: white;
+}
+
+#header-arrow {
+    float: right;
+    display: block;
+    max-width: 148px;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0;
+    background-image: url(../img/menu-bg.gif);
+    background-repeat: repeat;
+    position: relative;
+
+    
+}
+
+#menu-wrapper {
+    display: block;
+    width: 100%;
+    list-style-type: none;
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+}
+
+#menu-wrapper li {
+    float: left;
+    margin-left: 5%;
+    font-size: 150%
+
+}
+
+#menu-wrapper li a {
+
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.clear {
+    clear: both;
+
+}
+.h3-blocks {
+    background: rgba(0, 0, 0, 0.274);
+}
+
+/* Content CSS */
+
+main {
+    max-width: 65%;
+    width: 65%;
+    display: block;
+    float: left;
+    position: relative;
+
+}
+
+aside {
+    max-width: 30%;
+    width: 30%;
+    display: block;
+    float: right;
+    position: relative;
+
+}
+
+footer {
+    clear: both;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 100%;
+    display: block;
+    background: black;
+    text-align: center;
+    color: white;
+    position: relative;
+
+}
+
+
+/*  Gallery specific */
+
+#gallery tr td  {
+    border: 1px solid black;
+    margin: 5%;
+}
+
+#gallery tr td img {
+    margin-top: 3%;
+    
+}
+
